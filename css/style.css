@@ -219,7 +219,6 @@ header .navbar .toggler .fa-bars
 .testimonial .testimonial-body .card .card-body p
 {
     padding: 10px;
-    word-wrap: 100px;
 }
 
 .testimonial .testimonial-body .card .card-header .profile-2
@@ -342,6 +341,13 @@ footer .social-links li
     color: var(--theme-white);
     border-radius: 10px;
     transition: all .5s ease;
+}
+footer .social-links li:hover
+{
+    background-color: var(--theme-white);
+    border: 1px solid var(--theme-grey);
+    color: var(--theme-black);
+    border-radius: 10px;
 }
 footer .main-content h3
 {
