@@ -1,90 +1,108 @@
-# 📰 PR-3 Stand Blog – Max-Width Responsive Blog Layout 🌐
 
-Welcome to my third Media Query-based project — **PR-3 Stand Blog Max-Width**! 🎯  
-This project is a **responsive single-column blog layout** built using **HTML + CSS**, focused on using the `max-width` property to maintain readability and layout structure across all screen sizes.
+# 🧪 Shivam Practical Test – Responsive Layout Using Media Queries 📱
 
-It’s crafted with performance, clean code, and elegant typography in mind.
+Welcome to my **Media Query Practical Test Project**!  
+This project showcases my ability to build **responsive, cross-device web layouts** using only HTML and CSS — specifically focusing on **media queries** and real-time adaptive design. 🎯
+
+This layout is clean, professional, and tested across various screen sizes (mobile, tablet, and desktop). It demonstrates my understanding of layout composition, font integration, and responsiveness.
 
 ---
 
 ## 🔗 Live Preview
 
-🚀 **[View Live on Vercel](https://shivam-pr-3-stand-blog-max-width.vercel.app/)**
+🚀 **[Click Here to View the Live Site](https://shivam-practical-test-media-query.vercel.app/)**
 
 ---
 
 ## ✨ Key Features
 
-- 🧱 Max-width-based centered blog structure  
-- 🖋️ Clean typography using **Open Sans** font  
-- 💡 Focused content section with proper white space  
-- 📱 Fully responsive design via **media queries**  
-- 🖼️ Adaptive image rendering and text wrapping  
-- 🌍 Cross-browser compatibility  
-- 🧼 Simple and minimal UI, ideal for readability
+- 🎯 Fully responsive layout using **CSS media queries**
+- 🧱 Logical structure with clean HTML5 semantics
+- 🖋️ Stylish and readable typography using **Lato** font
+- 🧼 Simple, elegant, and test-ready layout design
+- 📐 Mobile-first approach and adaptive resizing
+- 🖼️ Proper alignment and element positioning
+- 🌍 Browser compatible (tested on Chrome, Firefox, and Edge)
 
 ---
 
 ## 🧰 Skills & Technologies Used
 
-| 💻 Tool / Concept     | ✅ Purpose / Learning Outcome               |
+| 💻 Tool / Concept     | ✅ Description                              |
 |------------------------|---------------------------------------------|
-| **HTML5**              | Semantic markup and document structure     |
-| **CSS3**               | Layout, spacing, font styling              |
-| **Media Queries**      | Responsive breakpoints with `max-width`    |
-| **Google Fonts**       | Integration of **Open Sans**               |
-| **Image Optimization** | Smooth resizing and responsiveness         |
-| **Folder Structure**   | Organized and modular file system          |
+| **HTML5**              | Semantic markup and layout structure        |
+| **CSS3**               | Styling, flexbox, alignment, media queries  |
+| **Media Queries**      | Responsiveness based on screen width        |
+| **Google Fonts**       | Embedded **Lato** for clean typography      |
+| **Image Handling**     | Adaptive images that scale with devices     |
+| **Organized Structure**| Clean file/folder hierarchy                 |
 
 ---
 
-## 📂 Project Folder Structure
+## 📂 Folder Structure
 
-PR-3-Stand-Blog-Max-Width/
+\`\`\`
+Shivam-Practical-Test-Media-Query/
 ├── css/
-│ └── style.css
+│   └── style.css
 ├── fonts/
-│ └── Open-Sans/
+│   └── Lato/
 ├── images/
+│   └── final-preview.png
 ├── webfonts/
 ├── index.html
-├── Main-Website.png
 └── README.md
+\`\`\`
 
 ---
 
 ## 🚀 How to Run This Project Locally
 
-Clone the repo and open the file locally:
+You can run this project locally by following these steps:
 
-git clone https://github.com/Dev-Shivam-05/PR-3-Stand-Blog-Max-Width.git
-cd PR-3-Stand-Blog-Max-Width
+\`\`\`bash
+git clone https://github.com/Dev-Shivam-05/Shivam-Practical-Test-Media-Query.git
+cd Shivam-Practical-Test-Media-Query
+\`\`\`
+
+Then open the `index.html` file manually in your browser, or use VS Code's Live Server for a better experience:
+
+\`\`\`bash
 code .
 Right-click on index.html → Open with Live Server
+\`\`\`
 
+---
 
-🙋‍♂️ About Me – Shivu
-Hey there! I’m Shivam (aka Shivu) 👨‍💻
-I’m a passionate developer exploring both frontend and backend development, one project at a time.
+## 🙋‍♂️ About Me – Shivu
 
-🌟 What I’m Learning:
-🎨 Responsive design using HTML/CSS
+Hey there! I’m **Shivam (aka Shivu)** 👨‍💻  
+I'm a web developer in training, continuously growing my skill set through hands-on projects and practical challenges.
 
-🏗️ Building real-world layouts from scratch
+### 💡 Currently Exploring:
 
-🧠 Backend logic using Python and C++
+- 💻 Responsive Web Design using HTML/CSS  
+- 🧱 Layout Design for Real Projects  
+- ⚙️ Backend development with Python & C++  
+- 🌍 Building a developer portfolio step-by-step
 
-🌱 Constantly contributing and learning in the open-source world
+### 🔗 Connect With Me:
 
-🔗 Find Me On:
-💻 GitHub: Dev-Shivam-05
+- 🧑‍💻 GitHub: [Dev-Shivam-05](https://github.com/Dev-Shivam-05)  
+- 🔗 Vercel: Hosting all my responsive UI projects
 
-🔗 Vercel: Hosting all my live projects
+---
 
-⭐ Support This Project
-If you found this project helpful or interesting,
-please consider giving it a ⭐ on GitHub — your support means a lot! 💖
+## ⭐ Support My Journey
 
-"Every expert was once a beginner — and every layout starts with one div." – Shivu
+If you found this project helpful, inspiring, or worth sharing —  
+please consider giving it a **⭐ on GitHub** — it truly motivates me! 💖
 
-🎉 Thanks for checking out PR-3 Stand Blog!
+---
+
+> _"Every expert was once a beginner — and every responsive layout starts with one `@media` rule."_ – Shivu
+
+---
+
+🎉 Thanks for checking out my **Media Query Practical Project**!  
+More creative designs and challenges are on the way 🚀
