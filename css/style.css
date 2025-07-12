@@ -1,0 +1,359 @@
+:root
+{
+    --theme-black: #000000;
+    --theme-white: #ffffff;
+    --theme-grey: #808080;
+    --theme-red: #ff0000;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body 
+{
+    font-family: 'Lato';
+}
+.container
+{
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    transition: all .3s ease;
+}
+a
+{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+img
+{
+    display: block;
+    width: 100%;
+}
+ul li
+{
+    list-style: none;
+}
+
+/* Marging padding classes Starts */
+.mt-1
+{
+    margin-top: 1rem;
+}
+.my-1
+{
+    margin: 1rem 0;
+}
+.mx-1
+{
+    margin: 0 1rem;
+}
+/* Marging padding classes Ends */
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4
+{
+    width: 33.33%;
+    padding: 15px;
+    transition: all .3s ease;
+}
+.col-6
+{
+    width: 50%;
+    padding: 15px;
+    transition: all .3s ease;
+}
+.col-12
+{
+    width: 100%;
+    padding: 15px;
+    transition: all .3s ease;
+}
+/* Classes And Id's Section Starts */
+
+/* Header Section Starts */
+header
+{
+    background-color: var(--theme-black);
+}
+header .navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navbar .logo
+{
+    color: var(--theme-white);
+}
+header .navbar .logo:hover span
+{
+    transition: all 1s ease;
+    color: var(--theme-grey);
+}
+header .navbar .logo span
+{
+    color: var(--theme-black);
+}
+header .navbar nav .navlinks
+{
+    display: flex;
+    color: var(--theme-white);
+    transition: all .3s ease;
+}
+header .navbar nav .navlinks li a
+{
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    transition: all .5s ease;
+    margin: 5px;
+}
+header .navbar nav .navlinks li a:hover
+{
+    background-color: var(--theme-white);
+    color: var(--theme-black);
+    border-radius: 10px;
+}
+header .navbar .toggler
+{
+    display: none;
+    padding: 1rem 1.5rem;
+    background-color: inherit;
+    border: none;
+    transition: all .3s ease;
+}
+header .navbar .toggler .fa-bars
+{
+    color: var(--theme-white);
+}
+/* Header Section Ends */
+
+/* Hero's Section Starts */
+.hero
+{
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero .main-content
+{
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--theme-white);
+}
+.hero .main-content h3
+{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+/* Hero's Section Ends */
+
+/* Testimonial Section Starts */
+.testimonial
+{
+    padding: 100px 0;
+    background-color: var(--theme-grey);
+    text-align: center;
+}
+.testimonial .testimonial-header h3,
+.user-profile .user-profile-header h3
+{
+    font-size: 24px;
+    color: var(--theme-white);
+    font-weight: 600;
+    margin: 10px 0;
+}
+.testimonial .testimonial-header p,
+.user-profile .user-profile-header p
+{
+    font-size: 18px;
+    color: var(--theme-white);
+    font-weight: 400;
+    margin: 10px 0;
+}
+.testimonial .testimonial-body
+{
+    margin-top: 50px;
+    display: flex;
+}
+.testimonial .testimonial-body .card
+{
+    height: 350px;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.testimonial .testimonial-body .card .card-header .profile-1
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/profile-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.testimonial .testimonial-body .card .card-header h3
+{
+    margin: 10px 0;
+}
+.testimonial .testimonial-body .card .card-header .stars
+{
+    width: 150px;
+    margin: 0 auto;
+}
+.testimonial .testimonial-body .card .card-body p
+{
+    padding: 10px;
+    word-wrap: 100px;
+}
+
+.testimonial .testimonial-body .card .card-header .profile-2
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/profile-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.testimonial .testimonial-body .card .card-header .profile-3
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/profile-3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.testimonial p
+{
+    transition: all .3s ease;
+}
+/* Testimonial Section Ends */
+
+/* User Profile Card Starts */
+.user-profile
+{
+    padding: 100px 0;
+    background-color: var(--theme-black);
+    text-align: center;
+}
+.user-profile .user-profile-card 
+{
+    background-color: var(--theme-white);
+    padding: 40px;
+    color: var(--theme-black);
+    margin: 60px 0;
+    display: inline-block;
+}
+.user-profile .user-profile-card .user-profile-card-header .user-profile-image
+{
+    width: 6.25rem;
+    height: 6.25rem;
+    background-image: url(../images/user-profile-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.user-profile .user-profile-card .user-profile-card-header h3
+{
+    font-size: 24px;
+}
+.user-profile .user-profile-card .user-profile-card-header h5
+{
+    font-size: 18px;
+    color: var(--theme-grey);
+}
+.user-profile .user-profile-card .user-profile-card-body
+{
+    margin-top: 20px;
+}
+.user-profile .user-profile-card .user-profile-card-footer
+{
+    margin-top: 40px;
+}
+.user-profile .user-profile-card .user-profile-card-footer h3
+{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--theme-grey);
+}
+.user-profile .user-profile-card .user-profile-card-footer .user-social-links
+{
+    display: flex;
+    justify-content: center;
+}
+.user-profile .user-profile-card .user-profile-card-footer .user-social-links li
+{
+    padding: 1rem 1.1rem;
+    border-radius: 50%;
+    border: 1px solid var(--theme-grey);
+    margin: 0 .5rem;
+    color: var(--theme-grey);
+    transition: all .5s ease;
+}
+.user-profile .user-profile-card .user-profile-card-footer .user-social-links li:hover
+{
+    border: 1px solid var(--theme-white);
+    background-color: var(--theme-grey);
+    color: var(--theme-white);
+}
+/* User Profile Card Ends */
+
+/* Footer Starts */
+footer
+{
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+footer .social-links
+{
+    display: flex;
+    margin-top: 20px;
+}
+footer .social-links li 
+{
+    padding: 1rem .8rem;
+    background-color: var(--theme-black);
+    border: 1px solid var(--theme-grey);
+    margin: 0 .5rem;
+    color: var(--theme-white);
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+footer .main-content h3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .main-content h3 a
+{
+    margin-left: 5px;
+    color: var(--theme-red);
+}
+/* Footer Ends */
+
+/* Classes And Id's Section Ends */
