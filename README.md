@@ -76,7 +76,7 @@ Right-click on index.html → Open with Live Server
 
 ## 🙋‍♂️ About Me – Shivu
 
-Hey there! I’m **Shivam (aka Shivu)** 👨‍💻  
+Hey there! I’m **Shivam** 👨‍💻  
 I'm a web developer in training, continuously growing my skill set through hands-on projects and practical challenges.
 
 ### 💡 Currently Exploring:
